@@ -58,3 +58,13 @@ sentence/code equality, K6 pairing/ties/complete-block caps, shared evaluator se
 Accepted for Dirty Mode construction — runtime unverified. Same unchanged-source whole-tree gate CLEAN at M2 applies
 (157 files, gate SHA-256 above). Span, splitter, selection, mutator and expected-semantic-miss test sources remain unexecuted.
 The label is lexical-only; no semantic verification or measured performance is claimed.
+
+## M5 — public bytes, review, approval and download (2026-10-27)
+
+Separate Medium review 0879 requested fixes; High correction 0895 and High review 0906 PASS.
+Manual selections now accumulate across blocking results, and re-redaction invalidates prior bytes/approval before awaiting work.
+Role/exclusion and explicit names confirmation, private brand, all-field/byte rescan, exact spans/excerpt cap, deterministic
+allowlisted bytes, inert JSX, durable storage and both-hash approval/download checks inspected. Accepted for Dirty Mode
+construction — runtime unverified; same unchanged-source gate CLEAN 157-file snapshot applies (gate SHA-256 above).
+Supplemental High test-source review PASS with bounded coverage notes; source covers actual surrogate/cap, escaped-answer and
+metadata rescans, storage denial and async lifecycle. No complete browser/field matrix or executed test pass is claimed.
