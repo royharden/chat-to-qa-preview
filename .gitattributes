@@ -1,0 +1,7 @@
+# LF everywhere so hashed bytes (FREEZE.json, fixtures) do not depend on core.autocrlf.
+* text=auto eol=lf
+
+# Byte-exact fixtures: never converted on checkout or commit.
+fixtures/refusals/** -text
+fixtures/accept/*.crlf.* -text
+fixtures/accept/*.json.txt -text

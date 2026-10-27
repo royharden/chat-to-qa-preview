@@ -1,0 +1,14 @@
+{
+  "recipe": "s47-fixture-recipe/1",
+  "code": "total_too_long",
+  "fileName": "total_too_long.md",
+  "provenance": "Synthetic M1 refusal recipe, 0814_Claude_Opus55_Sub_S47CodeM1 (builder lineage), 2026-10-27. 45 assistant turns of 90,000 units each (4,050,001 units in total, under 5 MiB).",
+  "parts": [
+    { "text": "## 👤 User\n\nq\n\n" },
+    { "times": 45, "parts": [
+      { "text": "## 🤖 Assistant\n\n" },
+      { "text": "abcdefghij", "times": 9000 },
+      { "text": "\n\n" }
+    ] }
+  ]
+}

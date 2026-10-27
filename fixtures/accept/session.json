@@ -1,0 +1,10 @@
+{
+  "schema_version": "s47.chat.v1",
+  "title": "Synthetic title that must be discarded (M1 accept fixture)",
+  "turns": [
+    { "id": "u-1", "role": "user", "text": "How do I pin the Node version?" },
+    { "id": "th-1", "role": "thinking", "text": "Invented reasoning that never reaches candidates." },
+    { "id": "tool-1", "role": "tool", "text": "Invented tool output that never reaches candidates." },
+    { "id": "a-1", "role": "assistant", "text": "Add an engines field to package.json.\r\nThen run the install again." }
+  ]
+}

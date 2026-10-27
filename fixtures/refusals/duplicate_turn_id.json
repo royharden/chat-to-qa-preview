@@ -1,0 +1,8 @@
+{
+  "schema_version": "s47.chat.v1",
+  "title": "M1 refusal fixture: duplicate_turn_id (synthetic)",
+  "turns": [
+    { "id": "x", "role": "user", "text": "How do I clear the cache?" },
+    { "id": "x", "role": "assistant", "text": "Delete the cache folder and rebuild." }
+  ]
+}

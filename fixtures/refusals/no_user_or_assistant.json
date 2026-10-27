@@ -1,0 +1,9 @@
+{
+  "schema_version": "s47.chat.v1",
+  "title": "M1 refusal fixture: no_user_or_assistant (synthetic; tool and thinking turns are not assistant turns)",
+  "turns": [
+    { "id": "u1", "role": "user", "text": "How do I clear the cache?" },
+    { "id": "th1", "role": "thinking", "text": "Invented reasoning text." },
+    { "id": "tl1", "role": "tool", "text": "Invented tool output." }
+  ]
+}

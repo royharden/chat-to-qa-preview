@@ -1,0 +1,18 @@
+# Dependencies and build output (nothing installed or built yet; Dirty Mode)
+node_modules/
+dist/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# Environment: only the placeholder file is tracked
+.env
+.env.*
+!.env.example
+
+# Never commit chat exports, local ledgers or scratch
+.chatexports/
+*.ledger.jsonl
+*.local
+.DS_Store
+Thumbs.db

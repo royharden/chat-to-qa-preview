@@ -1,0 +1,10 @@
+{
+  "recipe": "s47-fixture-recipe/1",
+  "code": "oversize_file",
+  "fileName": "oversize_file.md",
+  "provenance": "Synthetic M1 refusal recipe, 0814_Claude_Opus55_Sub_S47CodeM1 (builder lineage), 2026-10-27. Expands to more than 5 MiB.",
+  "parts": [
+    { "text": "## 👤 User\n\nq\n\n## 🤖 Assistant\n\n" },
+    { "text": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcde\n", "times": 84000 }
+  ]
+}

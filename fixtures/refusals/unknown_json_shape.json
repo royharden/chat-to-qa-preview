@@ -1,0 +1,9 @@
+{
+  "schema_version": "s47.chat.v1",
+  "title": "M1 refusal fixture: unknown_json_shape (synthetic; the extra top-level key is not allowed)",
+  "turns": [
+    { "id": "a", "role": "user", "text": "How do I clear the cache?" },
+    { "id": "b", "role": "assistant", "text": "Delete the cache folder and rebuild." }
+  ],
+  "workspace": "not-allowed"
+}

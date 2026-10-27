@@ -1,0 +1,1 @@
+﻿{"schema_version":"s47.chat.v1","turns":[{"id":"q","role":"user","text":"Why does the BOM matter?"},{"id":"r","role":"assistant","text":"It is removed with a warning."}]}
