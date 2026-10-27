@@ -42,3 +42,11 @@ protected-data code-boundary grep, network/render/baseline import checks and fro
 `837a78c4b1091ff1e0d4b25b1cd762fbf4241c351b765e129dd614caaed40dea`. This shared source snapshot also covers the unchanged
 reviewed M3–M6 source packaged in the next local commits. No application or test code executed; no allowlist was needed.
 Fixture determinism, twin parity, labels, scanner/CLI behavior and admission tests are written but unexecuted.
+
+## M3 — redactkit (2026-10-27)
+
+Separate Medium source review 0902 PASS; private symbols and runtime identity, typed rendered placeholders,
+revision hashing, deterministic overlap, entropy blocking, manual source spans and mapped one-pass JSON escape detection inspected.
+Accepted for Dirty Mode construction — runtime unverified. Covered by the same unchanged-source whole-tree gate CLEAN
+157-file snapshot recorded at M2 (same gate SHA-256); baseline hashes and pre-redactkit commit order preserved.
+Rule/trap/property/type-boundary regression sources exist; none ran. No credential, raw chat or hidden fixture was used.
