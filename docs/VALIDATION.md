@@ -79,3 +79,17 @@ runtime unverified; unchanged-source gate CLEAN snapshot applies. Root refreshed
 all 34 shared modules byte-for-byte (no mismatch). BOLT-HANDOFF is specification only, not provisioned.
 Supplemental provider/ledger behavior test sources passed High source review; no transport fake, timeout, SQL, Auth, Deno or
 live scenario ran. Default price/budget controls refuse live transport; USD 40 is a ceiling only, not supplied access.
+
+## M7 — evaluation source, freeze and honest handoff (2026-10-27)
+
+Separate Medium review 0902 requested four fixes; High correction 0895 resolved artifact-unit counting, boundary STOP,
+explicit live names review and frozen-data binding. High review 0906 found a source-freeze binary fixture issue;
+Extra High correction 0909 and separate Extra High review 0926 PASS. Byte-exact fixtures now use explicit indexed Git
+attributes in a versioned raw/text source snapshot; no fixture is excluded and the N13 held-out text manifest is unchanged.
+Known-set diagnostic labels preserve the original output reference; no first-run independence is inferred from an edition name.
+
+Final root whole-tree static gate **CLEAN, exit 0**, 158 TypeScript files parsed, JSON/SCAN/boundary/import/frozen-baseline
+checks passed; unchanged gate SHA-256 `837a78c4b1091ff1e0d4b25b1cd762fbf4241c351b765e129dd614caaed40dea`.
+Source reviews and static syntax are the acceptance basis only. Oracle/evaluation/freeze/live-evidence regression sources exist
+but have not run. Results remain not_run; no hidden data, oracle examples, admission receipt, evaluation tag, provider call or
+measured result was created. Accepted for Dirty Mode construction — runtime unverified. See DEFERRED-VALIDATION.md for activation.
