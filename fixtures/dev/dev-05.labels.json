@@ -1,0 +1,55 @@
+{
+  "author": "0878_Codex_gpt-61-sol_Sub_S47-M2",
+  "provenance": "synthetic",
+  "lineage": "builder-dev",
+  "gold_question": {
+    "turn_id": "t11",
+    "text": "How can I finish the proxy routing configuration?"
+  },
+  "controlled_targets": [
+    {
+      "id": "primary",
+      "spans": [
+        {
+          "turn_id": "t8",
+          "text": "Use the stable proxy routing policy with retry cap 3 and bearer: {{BEARER:s50}}."
+        }
+      ],
+      "slot_ids": [
+        "s50"
+      ],
+      "anchors": [
+        "Use the stable",
+        "proxy routing",
+        "retry cap 3"
+      ]
+    },
+    {
+      "id": "final",
+      "spans": [
+        {
+          "turn_id": "t12",
+          "text": "Set the final proxy routing profile to mode safe with basic_auth_url: {{BASIC_AUTH_URL:s51}}."
+        }
+      ],
+      "slot_ids": [
+        "s51"
+      ],
+      "anchors": [
+        "Set the final",
+        "proxy routing",
+        "mode safe"
+      ]
+    }
+  ],
+  "decoys": [
+    "d5"
+  ],
+  "abstain_ok": false,
+  "traps": [
+    "superseded_answer",
+    "dead_end",
+    "excluded_tool_details",
+    "target_inline"
+  ]
+}

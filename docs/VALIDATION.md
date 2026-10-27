@@ -29,3 +29,16 @@ Other static checks performed:
 | Baselines not imported by the app | `grep` for imports of `baselines`, `leakeval`, `scripts/` in `src/` | None (the only importers will be `src/lib/leakeval/` and `scripts/eval.ts`, later milestones) |
 | Pinned documentation sections | Read only the two N14 sections; `tr -d '\r' \| awk` line range `\| sha256sum`, cross-checked with `sed` and with the README's committed blob | Hashes in `docs/FORMAT.md` §1.1; both methods agree |
 | Secret-shaped literals | Gate SCAN; test inputs written as concatenated parts | No hits |
+
+## M2 — fixture recipes and admission preflight (Codex succession, 2026-10-27)
+
+Source construction accepted after separate reviews: 0880 Medium changes requested; 0906 High changes requested;
+0926 Extra High PASS. Corrections enforce exactly two seeds per dev template, preserve the distinct UUID coverage policy,
+and scan nonignored untracked working files plus tracked working files and independent index blobs. Deleted working copies retain
+index evidence; symlink/nonregular working paths fail closed. Custodian packet is specification only; no hidden data or receipt exists.
+
+Root whole-tree static gate: **CLEAN, exit 0**, 157 TypeScript files parsed; JSON, SCAN working/untracked/index,
+protected-data code-boundary grep, network/render/baseline import checks and frozen baseline hashes passed. Gate SHA-256:
+`837a78c4b1091ff1e0d4b25b1cd762fbf4241c351b765e129dd614caaed40dea`. This shared source snapshot also covers the unchanged
+reviewed M3–M6 source packaged in the next local commits. No application or test code executed; no allowlist was needed.
+Fixture determinism, twin parity, labels, scanner/CLI behavior and admission tests are written but unexecuted.

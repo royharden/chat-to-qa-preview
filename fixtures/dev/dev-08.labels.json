@@ -1,0 +1,55 @@
+{
+  "author": "0878_Codex_gpt-61-sol_Sub_S47-M2",
+  "provenance": "synthetic",
+  "lineage": "builder-dev",
+  "gold_question": {
+    "turn_id": "t11",
+    "text": "How can I finish the workspace setup configuration?"
+  },
+  "controlled_targets": [
+    {
+      "id": "primary",
+      "spans": [
+        {
+          "turn_id": "t8",
+          "text": "Use the stable workspace setup policy with retry cap 3 and win_home: {{WIN_HOME:s80}}."
+        }
+      ],
+      "slot_ids": [
+        "s80"
+      ],
+      "anchors": [
+        "Use the stable",
+        "workspace setup",
+        "retry cap 3"
+      ]
+    },
+    {
+      "id": "final",
+      "spans": [
+        {
+          "turn_id": "t12",
+          "text": "Set the final workspace setup profile to mode safe with unix_home: {{UNIX_HOME:s81}}."
+        }
+      ],
+      "slot_ids": [
+        "s81"
+      ],
+      "anchors": [
+        "Set the final",
+        "workspace setup",
+        "mode safe"
+      ]
+    }
+  ],
+  "decoys": [
+    "d8"
+  ],
+  "abstain_ok": false,
+  "traps": [
+    "superseded_answer",
+    "dead_end",
+    "excluded_tool_details",
+    "target_inline"
+  ]
+}
