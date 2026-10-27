@@ -50,3 +50,11 @@ revision hashing, deterministic overlap, entropy blocking, manual source spans a
 Accepted for Dirty Mode construction — runtime unverified. Covered by the same unchanged-source whole-tree gate CLEAN
 157-file snapshot recorded at M2 (same gate SHA-256); baseline hashes and pre-redactkit commit order preserved.
 Rule/trap/property/type-boundary regression sources exist; none ran. No credential, raw chat or hidden fixture was used.
+
+## M4 — spans, lexical grounding and selection (2026-10-27)
+
+Separate Medium source review 0902 PASS. UTF-16/surrogate/revision checks, technical token boundaries,
+sentence/code equality, K6 pairing/ties/complete-block caps, shared evaluator selector core and all ten mutators inspected.
+Accepted for Dirty Mode construction — runtime unverified. Same unchanged-source whole-tree gate CLEAN at M2 applies
+(157 files, gate SHA-256 above). Span, splitter, selection, mutator and expected-semantic-miss test sources remain unexecuted.
+The label is lexical-only; no semantic verification or measured performance is claimed.
