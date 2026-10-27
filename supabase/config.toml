@@ -1,0 +1,2 @@
+[functions.propose-qa]
+verify_jwt = true

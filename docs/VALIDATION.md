@@ -68,3 +68,14 @@ allowlisted bytes, inert JSX, durable storage and both-hash approval/download ch
 construction — runtime unverified; same unchanged-source gate CLEAN 157-file snapshot applies (gate SHA-256 above).
 Supplemental High test-source review PASS with bounded coverage notes; source covers actual surrogate/cap, escaped-answer and
 metadata rescans, storage denial and async lifecycle. No complete browser/field matrix or executed test pass is claimed.
+
+## M6 — mock-first providers, budgets and backend source (2026-10-27)
+
+Separate Medium review 0902 requested two corrections; High correction 0895 and High review 0906 PASS.
+Outside-repo ledger guards now check real path segments, and model answer limits count block separators.
+Private bounded model inputs, reservation-before-transport, unverified/empty prices, cumulative locked CLI ledger,
+verified-user/operator handler, atomic zero-cap SQL and browser-denied RLS inspected. Accepted for Dirty Mode construction —
+runtime unverified; unchanged-source gate CLEAN snapshot applies. Root refreshed the corrected schema mirror and compared
+all 34 shared modules byte-for-byte (no mismatch). BOLT-HANDOFF is specification only, not provisioned.
+Supplemental provider/ledger behavior test sources passed High source review; no transport fake, timeout, SQL, Auth, Deno or
+live scenario ran. Default price/budget controls refuse live transport; USD 40 is a ceiling only, not supplied access.
