@@ -93,3 +93,7 @@ checks passed; unchanged gate SHA-256 `837a78c4b1091ff1e0d4b25b1cd762fbf4241c351
 Source reviews and static syntax are the acceptance basis only. Oracle/evaluation/freeze/live-evidence regression sources exist
 but have not run. Results remain not_run; no hidden data, oracle examples, admission receipt, evaluation tag, provider call or
 measured result was created. Accepted for Dirty Mode construction — runtime unverified. See DEFERRED-VALIDATION.md for activation.
+
+## REPO-S preservation (2026-10-28)
+
+Static gate CLEAN, exit 0; gate SHA-256 `837a78c4b1091ff1e0d4b25b1cd762fbf4241c351b765e129dd614caaed40dea`. This check does not verify runtime behavior; the deferred checks and owner gates remain open.

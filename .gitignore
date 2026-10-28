@@ -21,3 +21,12 @@ Thumbs.db
 results/run*/
 evaluation/freeze.json
 data/admission-receipt.json
+
+# Local credentials and generated archives
+.creds/
+ArchiveManager-creds.txt
+*.pem
+*.key
+*.p12
+*.pfx
+*.zip
