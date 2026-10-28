@@ -1,17 +1,24 @@
 # Independent author packet — specification only
 
-Admission status: PENDING; Roy-R2 appointment and Roy-R6 ordering decision unresolved.
+Admission status: PENDING; an eligible custodian has not been appointed. R6 construction ordering was approved
+under Roy's delegated decisions on 2026-10-27; that approval does not establish data independence.
 No independent data, label or GO receipt is included. This packet contains no example session, identifier value or label.
 Author from this specification alone; do not inspect src/ or builder templates before independent authorship is finished.
 
 ## Independence and exclusions
 
-The custodian must be appointed by Roy, be outside S47-INT and all builder-subagent lineage, and use a different model family if an agent.
+The custodian must be outside both Claude and Codex builder lineages, including every builder INT, DL and child,
+and use a different model family if an agent. Round 2 permits a delegated stand-in from outside those lineages,
+labelled "delegated stand-in, not human-independent"; its work remains "accepted for construction,
+independence PENDING - Roy". It cannot issue human attestation or satisfy final independent admission.
+Roy may appoint a human, including himself, to replace the stand-in. This builder cannot appoint its own child
+as the stand-in or author missing held-out data while waiting for an eligible seat.
 Do not derive data from QAConv, DevGPT, Slack corpora, real chat exports, agent logs or any .chatexports path.
 No personal, secret or operational identifier may appear. All prose is newly authored synthetic material.
 The builder lineage must neither author held-out material nor read/write custody/heldout.
 After authoring, independently check no shared template text or literal value with development data; exact hash comparisons alone are insufficient.
-Construction began before appointment under Dirty Mode. This ordering exception needs Roy-R6 confirmation; it does not establish independence.
+Construction began before appointment under Dirty Mode. The delegated R6 ordering approval preserves the
+baseline-before-redaction and no-builder-held-out mitigations; it does not establish independence.
 
 ## Session format
 

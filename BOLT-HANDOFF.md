@@ -24,7 +24,9 @@ Gateway JWT checking stays enabled; function also verifies through Auth getUser 
 CLI-only funded proposal requires S47_ANTHROPIC_API_KEY and S47_CLI_CAP_USD, plus explicit provider-send confirmation.
 The CLI ledger must be outside the tracked repo; cumulative cap across invocations uses an exclusive lock.
 It is a local guard, not a server-enforced cap. Server cap remains separately zero, so it cannot jointly spend a CLI grant.
-Roy approved a USD 40 total ceiling only; access/provider/model remain pending. Cap absent/zero refuses and cap above forty refuses.
+Roy approved USD 40 total for testing, a hard ceiling shared across all test usage. Spend only through Roy-supplied
+keys/accounts; none have been supplied. Current spend USD 0. Access/provider/model remain pending.
+Cap absent/zero refuses and cap above forty refuses. See docs/ACTIVATION-HANDOFF.md for placeholders and staged caps.
 
 ## Deferred validation
 
