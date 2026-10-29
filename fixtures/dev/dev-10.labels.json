@@ -1,0 +1,55 @@
+{
+  "author": "0878_Codex_gpt-61-sol_Sub_S47-M2",
+  "provenance": "synthetic",
+  "lineage": "builder-dev",
+  "gold_question": {
+    "turn_id": "t11",
+    "text": "How can I finish the job tracing configuration?"
+  },
+  "controlled_targets": [
+    {
+      "id": "primary",
+      "spans": [
+        {
+          "turn_id": "t8",
+          "text": "Use the stable job tracing policy with retry cap 3 and uuid: {{UUID:s100}}."
+        }
+      ],
+      "slot_ids": [
+        "s100"
+      ],
+      "anchors": [
+        "Use the stable",
+        "job tracing",
+        "retry cap 3"
+      ]
+    },
+    {
+      "id": "final",
+      "spans": [
+        {
+          "turn_id": "t12",
+          "text": "Set the final job tracing profile to mode safe with high_entropy: {{HIGH_ENTROPY:s101}}."
+        }
+      ],
+      "slot_ids": [
+        "s101"
+      ],
+      "anchors": [
+        "Set the final",
+        "job tracing",
+        "mode safe"
+      ]
+    }
+  ],
+  "decoys": [
+    "d10"
+  ],
+  "abstain_ok": false,
+  "traps": [
+    "superseded_answer",
+    "dead_end",
+    "excluded_tool_details",
+    "target_inline"
+  ]
+}

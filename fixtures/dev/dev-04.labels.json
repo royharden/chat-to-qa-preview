@@ -1,0 +1,55 @@
+{
+  "author": "0878_Codex_gpt-61-sol_Sub_S47-M2",
+  "provenance": "synthetic",
+  "lineage": "builder-dev",
+  "gold_question": {
+    "turn_id": "t11",
+    "text": "How can I finish the worker shutdown configuration?"
+  },
+  "controlled_targets": [
+    {
+      "id": "primary",
+      "spans": [
+        {
+          "turn_id": "t8",
+          "text": "Use the stable worker shutdown policy with retry cap 3 and jwt: {{JWT:s40}}."
+        }
+      ],
+      "slot_ids": [
+        "s40"
+      ],
+      "anchors": [
+        "Use the stable",
+        "worker shutdown",
+        "retry cap 3"
+      ]
+    },
+    {
+      "id": "final",
+      "spans": [
+        {
+          "turn_id": "t12",
+          "text": "Set the final worker shutdown profile to mode safe with pem_block: {{PEM_BLOCK:s41}}."
+        }
+      ],
+      "slot_ids": [
+        "s41"
+      ],
+      "anchors": [
+        "Set the final",
+        "worker shutdown",
+        "mode safe"
+      ]
+    }
+  ],
+  "decoys": [
+    "d4"
+  ],
+  "abstain_ok": false,
+  "traps": [
+    "superseded_answer",
+    "dead_end",
+    "excluded_tool_details",
+    "target_inline"
+  ]
+}

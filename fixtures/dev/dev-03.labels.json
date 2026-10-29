@@ -1,0 +1,55 @@
+{
+  "author": "0878_Codex_gpt-61-sol_Sub_S47-M2",
+  "provenance": "synthetic",
+  "lineage": "builder-dev",
+  "gold_question": {
+    "turn_id": "t11",
+    "text": "How can I finish the retry limits configuration?"
+  },
+  "controlled_targets": [
+    {
+      "id": "primary",
+      "spans": [
+        {
+          "turn_id": "t8",
+          "text": "Use the stable retry limits policy with retry cap 3 and openai_key: {{OPENAI_KEY:s30}}."
+        }
+      ],
+      "slot_ids": [
+        "s30"
+      ],
+      "anchors": [
+        "Use the stable",
+        "retry limits",
+        "retry cap 3"
+      ]
+    },
+    {
+      "id": "final",
+      "spans": [
+        {
+          "turn_id": "t12",
+          "text": "Set the final retry limits profile to mode safe with slack_token: {{SLACK_TOKEN:s31}}."
+        }
+      ],
+      "slot_ids": [
+        "s31"
+      ],
+      "anchors": [
+        "Set the final",
+        "retry limits",
+        "mode safe"
+      ]
+    }
+  ],
+  "decoys": [
+    "d3"
+  ],
+  "abstain_ok": false,
+  "traps": [
+    "superseded_answer",
+    "dead_end",
+    "excluded_tool_details",
+    "target_inline"
+  ]
+}

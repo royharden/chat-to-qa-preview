@@ -16,3 +16,17 @@ coverage/
 *.local
 .DS_Store
 Thumbs.db
+
+# Runtime evaluation products: preserve each run locally, never accidentally publish token-bearing material.
+results/run*/
+evaluation/freeze.json
+data/admission-receipt.json
+
+# Local credentials and generated archives
+.creds/
+ArchiveManager-creds.txt
+*.pem
+*.key
+*.p12
+*.pfx
+*.zip

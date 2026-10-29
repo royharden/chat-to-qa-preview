@@ -1,0 +1,18 @@
+{
+  "edition": "s47.prereg.v1",
+  "status": "not_run",
+  "claim": "Seeded identifier leaks in final synthetic publishable bytes; not a privacy guarantee",
+  "dev": { "templates": 10, "seeds_per_template": 2, "lineage": "builder-dev", "headline_eligible": false },
+  "heldout": { "status": "PENDING - needs Roy to appoint", "recommended_templates": 8, "recommended_seeds": 3, "builder_authored": false },
+  "unit": "session,identifier_id; Markdown and JSON twins are one session",
+  "arms": ["R0:no-redaction", "R1:frozen-regex-only", "R2:full-pipeline", "R3:simulated-adversarial-mock-only"],
+  "tracks": ["controlled", "end_to_end", "redacted_transcript_boundary", "redacted_request_boundary", "grounding_mutators"],
+  "oracle": { "normalisations": ["JSON-unescape-once", "URL-decode-once", "NFKC", "class-specific-casefold", "whitespace-join"], "secret_min_length": 16, "partial_window": 12, "detector_imports": false },
+  "metrics": ["per-family-and-class-final-byte-leak", "eligible_ids", "blocked-abstained-downloadable", "boundary-residuals", "anchor-retention", "decoy-false-redaction", "selection-anchor-coverage", "gold-source-turn-hit", "span-validity", "mutator-caught-total", "cost-and-tokens"],
+  "denominator": "eligible_ids = planted ids inside gate-eligible artifacts; report eligible sessions alongside",
+  "small_cells": "below 10 eligible ids: counts only; zero denominator NA",
+  "stop_conditions": ["NO_GO or hash mismatch: skip", "R2 dev high-tier leak or boundary/approval test failure: no live/reveal", "cap reached: stop live arm and report partial n", "held-out high-tier leak: no ready-for-self-owned-input release"],
+  "known_misses": ["names-in-prose", "mid-token-splits", "novel-short-unprefixed-tokens", "unwrapped-tool-text", "negation", "relation-swap", "paraphrase", "forged-speaker-headings"],
+  "post_reveal_fix": "First run preserved; rerun is known-set diagnostic; new claim needs new independent edition",
+  "live": { "default_cap_usd": 0, "approved_ceiling_usd": 40, "provider_model_access": "pending Roy", "retries": 0 }
+}

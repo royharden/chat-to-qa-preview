@@ -1,0 +1,55 @@
+{
+  "author": "0878_Codex_gpt-61-sol_Sub_S47-M2",
+  "provenance": "synthetic",
+  "lineage": "builder-dev",
+  "gold_question": {
+    "turn_id": "t11",
+    "text": "How can I finish the release pinning configuration?"
+  },
+  "controlled_targets": [
+    {
+      "id": "primary",
+      "spans": [
+        {
+          "turn_id": "t8",
+          "text": "Use the stable release pinning policy with retry cap 3 and aws_key_id: {{AWS_KEY_ID:s20}}."
+        }
+      ],
+      "slot_ids": [
+        "s20"
+      ],
+      "anchors": [
+        "Use the stable",
+        "release pinning",
+        "retry cap 3"
+      ]
+    },
+    {
+      "id": "final",
+      "spans": [
+        {
+          "turn_id": "t12",
+          "text": "Set the final release pinning profile to mode safe with aws_secret: {{AWS_SECRET:s21}}."
+        }
+      ],
+      "slot_ids": [
+        "s21"
+      ],
+      "anchors": [
+        "Set the final",
+        "release pinning",
+        "mode safe"
+      ]
+    }
+  ],
+  "decoys": [
+    "d2"
+  ],
+  "abstain_ok": false,
+  "traps": [
+    "superseded_answer",
+    "dead_end",
+    "excluded_tool_details",
+    "target_inline"
+  ]
+}
